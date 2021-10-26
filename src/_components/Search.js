@@ -1,11 +1,12 @@
 import React from 'react';
 import { Fragment } from 'react';
 
-import APIKEY from '../api';
+//import APIKEY from '../api';
 
 import Results from './Results';
 import Button from './Button';
 
+const APIKEY ='2986029f13f85717f1eea32148c33d97';
 export default class Search extends React.Component {
 	constructor() {
 		super();
@@ -19,9 +20,10 @@ export default class Search extends React.Component {
 			list: [],
 			categorizedList: [],
 		}
-
+        
 		this.inputSearch = React.createRef(); // create reference to the <input> field
 	}
+	
 
 	validateInput = () => {
 		// console.log(this.inputSearch.current.value);

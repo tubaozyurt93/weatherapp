@@ -3,7 +3,7 @@ import React from 'react';
 import Button from './Button';
 import DatesContainer from './DatesContainer';
 
-export default class Result extends React.Component {
+export default class Results extends React.Component {
     
     view = () => {
 		const {showWhat, city, country, results} = this.props;

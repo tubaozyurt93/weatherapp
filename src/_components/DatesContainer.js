@@ -1,7 +1,8 @@
 import React from 'react';
 import { Fragment } from 'react';
 
-import { formDate, formatTime } from '../_helpers';
+import ForecastItem from './ForecastItem';
+import { formatDate, formatTime } from '../_helpers';
 
 export default class DatesContainer extends React.Component {
     render() {
