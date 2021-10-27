@@ -1,5 +1,6 @@
 import React from 'react';
 import { Fragment } from 'react';
+import '../scss/app.scss';
 
 import Search from './Search'
 
